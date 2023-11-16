@@ -1,7 +1,6 @@
 A server app built using [Shelf](https://pub.dev/packages/shelf),
 configured to enable running with [Docker](https://www.docker.com/).
 
-This sample code handles HTTP GET requests to `/` and `/echo/<message>`
 
 # Running the sample
 
@@ -9,6 +8,13 @@ This sample code handles HTTP GET requests to `/` and `/echo/<message>`
 
 You can run the example with the [Dart SDK](https://dart.dev/get-dart)
 like this:
+
+Step 1: Clone the Repository
+
+Step 2: Open a terminal (Command Prompt on Windows) and navigate to the workshop_backend directory in it.<br />
+Example: If you cloned the repository on desktop and you have a folder named workshop_backend. Then open Command Prompt and type in `cd Desktop/workshop_backend`
+
+Step 3: Run the below command
 
 ```
 $ dart run bin/server.dart
